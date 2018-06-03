@@ -81,6 +81,7 @@ ul li {
     border: 0;
     width: 200px;
     height: 200px;
+    text-align: center;
 }
 
 .widget-item:nth-child(1) {
@@ -105,12 +106,6 @@ ul li {
 
 .widget-item:nth-child(5) img {
     margin-top: 0;
-    margin-left: 50px;
-}
-
-.widget-item:nth-child(5) .small-img {
-    margin-top: 0;
-    margin-left: 0;
 }
 
 .widget-item:nth-child(6) {
@@ -118,13 +113,11 @@ ul li {
 }
 
 .widget-item img {
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-top: 15%;
 }
 
 .widget-text {
     display: block;
-    margin-left: 20%;
 }
 
 .widget-item:hover {
